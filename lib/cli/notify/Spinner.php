@@ -1,5 +1,5 @@
 <?php
-/**
+/!!
  * PHP Command Line Tools
  *
  * This source file is subject to the MIT license that is bundled
@@ -43,3 +43,4 @@ class Spinner extends Notify {
 		Streams::out_padded($this->_format, compact('msg', 'char', 'elapsed', 'speed'));
 	}
 }
+ 
